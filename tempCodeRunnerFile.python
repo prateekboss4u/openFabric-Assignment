@@ -1,0 +1,17 @@
+
+
+workload = [2,3,7,8,7,6,3,8,12,11,12,10]
+targets = [3,7,8,12,4,9,8]
+
+import math
+N = 100
+
+summ = N*(N+1)//2
+p = int(math.log(N, 2));
+x = int(pow(2, p));
+print(summ - x)
+
+
+    
+    
+
